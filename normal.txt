@@ -1,0 +1,9 @@
+this is very basic example on Python so it will go well
+This document outlines several foundational Python programming exercises,
+ designed to demonstrate core concepts in programming logic and operator usage.
+ The source presents a series of solved problems, including finding the largest element among
+ three numbers and displaying prime numbers within an interval, each accompanied by detailed code,
+ step-by-step explanations, and clear output examples. A particularly insightful section illustrates how to swap
+ two numbers without using a temporary variable through arithmetic manipulation. The text also provides an exhaustive
+ demonstration of eight types of Python operators, such as Arithmetic, Relational, and Identity operators,
+ before concluding with programs to manipulate complex numbers and generate a multiplication table.
