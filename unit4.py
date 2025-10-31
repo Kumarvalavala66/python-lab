@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import math
 # Write a program to sort words in a file and put them in another file. The output file should have only lower-case words, so any upper-case words from source must be lowered.
 def main():
@@ -13,6 +14,23 @@ def main():
 if __name__ == '__main__':
     main()
 
+=======
+
+# Write a program to sort words in a file and put them in another file. The output file should have only lower-case words, so any upper-case words from source must be lowered.
+def main():
+    file = "normal.txt"
+    with open(file,'r') as f:
+        content = f.read()
+    words = content.split()
+    words = [word.lower() for word in words]
+    words = " ".join(words)
+
+    with open('output.txt','w') as f:
+        f.write(words)
+if __name__ == '__main__':
+    main()
+
+>>>>>>> f50bac0ccbb28cb33564d35210dbc9c82c9db3b1
 #  2. Python program to print each line of a file in reverse order.
 def main():
     file = "file.txt"
@@ -84,7 +102,7 @@ if __name__ == '__main__':
 
 #  6. Write a Python program to create a class that represents a shape. Include methods to calculate its area and perimeter. Implement subclasses for different shapes like circle, triangle, and square.
 from abc import ABC, abstractmethod
-from math import pi
+import math
 class Shape(ABC):
     @abstractmethod
     def area(self):
