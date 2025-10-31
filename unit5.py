@@ -114,7 +114,7 @@ def main():
         "name" : ["Prasanna","Kumar","Jaswanth","Willi","Harshit","Statlin","Manoj","Suhas","Devi","Prasad"],
         "age" :[22,23,22,24,21,25,23,22,23,22],
         "CGPA" : [9.9,9.8,8.8,9.0,7.6,8.9,9.0,7.9,8.0,9.0],
-        "collage" : ["BVC","BVC","BVC","BVC","BVC","BVC","ADITHYA","BVC","BVC","BVC"],
+        "collage" : ["BVC","BVC","SRKR","BVC","BVC","BVC","ADITHYA","BVC","BVC","NNB"],
         "grade" : ["A","B","C","B","A","B","C","D","B","A"],
     }
 
